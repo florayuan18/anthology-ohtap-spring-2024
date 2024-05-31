@@ -12,25 +12,50 @@ format:
     template-partials: 
       - template/title-block.html
 # do not edit ends
-title: "Anthology Article Template"
-session: "Summer 2023"
+title: "Oral History Text Analysis Project (OHTAP)"
+session: "Spring 2024"
 image: "data/imgs/placeholder.jpg"
 project-members:
-  - name: Dr. Jane Doe
-    designation: Faculty Director of Department
-    orcid: https://orcid.org/0000-0000-0000-0000
-  - name: John Doe
-    designation: Intern - Summer, 2023
-    orcid: https://orcid.org/0000-0000-0000-0000
+  - name: Dr. Estelle Freedman
+    designation: Edgar E. Robinson Professor in U.S. History
+    orcid: https://orcid.org/0000-0002-1801-481X
+  - name: Natalie Marine-Street
+    designation: Oral History Program Manager
+    orcid: https://orcid.org/0009-0007-2121-500X
+  - name: Flora Yuan
+    designation: Intern - Spring, 2024
 
 project-description: "The project Description contains few lines of description about the project. The description should be succint and give the reader a brief overview of what they could expect in the article. The project description can span from 4-5 lines and it is expected to capture the complete essence of the project. This article page comprises of two sub-articles related to the group. The article 1 focuses on the authoring capabilites of quarto and article 2 focuses on the computational capabilities. This article page is made using Quarto."
 
 ---
-# Title of Article 1
+# Refining Digital Humanities Tools for Women’s Narratives
 :::{.article-author}
-John Doe
+Flora Yuan
 :::
-This article focuses on the authoring capablities of Quarto. This article is written using [Quarto's Markdown](https://quarto.org/docs/authoring/markdown-basics.html). All the quarto markdown tags are supported for authoring the article. Please refer to the Quarto's official documentation for the available markdown options. Quarto allows a variety of features such using figures, tables, diagrams, videos, embeds, code annotations and more. It allows the authors to run Python scripts and embed the output in the article.
+I was thrilled to start working on the OHTAP project with Professor Freedman. 
+The overall goals for this project can be summarized in three different categories. The first goal 
+was Data Organization and Filtering. I began by creating and organizing a new folder system. Previously, 
+files were dispersed across separate folders; my task involved consolidating them into a single directory 
+with subfolders for 21 different databases. Within each subfolder, I focused on filtering interviews to 
+include only those featuring testaments from women, and I identified and corrected various errors in the 
+existing setup. This process involved cross-checking all raw text files against the overall OHTAP metadata 
+spreadsheet, where I discovered issues such as mislabeling of texts, inclusion of interviews from men, and 
+missing interview files
+
+The second goal of this project was Repository Maintenance and Development of Instructional Materials. This 
+part of the project involved building upon the work of previous interns. My responsibilities included revising 
+the instruction manual for Winnow, a user-friendly tool designed to help narrow down large text collections. 
+I also worked on cleaning out and maintaining the Winnow GitHub repositories. I assessed the organization of the
+ current repositories and made edits to ensure they were readable and clear. Furthermore, I assisted with 
+ research on the licensing and copyright statements of particular digital humanities applications, focusing on the 
+ legal considerations for the release and licensing of Winnow.
+
+The final goal of this project was Data Analysis and Exploration. For this stage, I performed data cleaning necessary 
+for depositing files in the Stanford University digital repository. Additionally, I conducted natural language processing 
+techniques and word frequency analyses to explore thematic trends and linguistic patterns within the interviews. This 
+analytical work aimed to uncover deeper insights into the lived experiences of women, shedding light on their personal 
+narratives and the socio-cultural contexts surrounding their testimonies.
+
 
 ## Authoring features of Quarto
 In this section, let's see some of the authoring features of Quarto.
